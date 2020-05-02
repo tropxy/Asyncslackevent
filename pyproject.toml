@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "asyncslackevent"
+version = "0.1.0"
+description = ""
+authors = ["tropxy <andre.duarte@mobilityhouse.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+quart = "=0.10.0"
+swagger-ui-py = "^0.2.0"
+quart-openapi = "^1.5"
+pyee = "^7.0.1"
+
+[tool.poetry.dev-dependencies]
+sphinx = "^2.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
