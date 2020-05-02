@@ -7,7 +7,7 @@ from Slack’s Events API. Therefore, it works in the same manner as python-slac
 
 It can serve your app by creating a Quart server or it can uses your own serer framework. The app uses Pint (openapi for Quart), however I couldnt manage to construct the code in order to use the openapi features and use at the same time the same structure as python-slack-events-api, so, for now, it creates creates routes as usually when using Quart:
 
-..code:python
+.. code:: python
   @app.route("/", methods=['GET', 'POST'])
   async def events():
       if request.method == 'GET':
